@@ -1,0 +1,40 @@
+body {
+  background: radial-gradient(circle, rgb(122, 122, 122) 0%, #242424 100%);
+  color: #fba6a4;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+div {
+  margin: auto;
+  margin-top: 10%;
+  width: 30%;
+  justify-content: center;
+}
+
+button {
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+  background-color: #3f3f3f;
+  color: white;
+}
+
+input {
+  border-radius: 25px;
+  padding: 5px 10px;
+  border: 0;
+  background-color: #3f3f3f;
+  color: white;
+}
+
+select {
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #3f3f3f;
+  color: white;
+  border: none;
+}

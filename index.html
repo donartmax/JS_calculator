@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+<body>
+
+    <h2>JavaScript kalkulator</h2>
+
+    <div>
+        <select id="operacije">
+            <option value="sabiranje">sabiranje</option>
+            <option value="oduzimanje">oduzimanje</option>
+            <option value="mnozenje">mnozenje</option>
+            <option value="deljenje">deljenje</option>
+        </select>
+
+        <p>Unesi 2 broja:</p>
+        <input type="text" id="broj1" maxlength="7">
+        <input type="text" id="broj2" maxlength="7">
+
+        <button onclick="submit()">Submit</button>
+
+        <p>Rezultat:</p>
+        <input type="text" id="rezultat">
+    </div>
+
+    <script src="app.js">
+    </script>
+
+</body>
