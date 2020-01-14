@@ -8,21 +8,23 @@
     <h2>JavaScript kalkulator</h2>
 
     <div>
-        <select id="operacije">
-            <option value="sabiranje">sabiranje</option>
-            <option value="oduzimanje">oduzimanje</option>
-            <option value="mnozenje">mnozenje</option>
-            <option value="deljenje">deljenje</option>
-        </select>
+        <form action="">
+            <select id="operacije">
+                <option value="sabiranje">sabiranje</option>
+                <option value="oduzimanje">oduzimanje</option>
+                <option value="mnozenje">mnozenje</option>
+                <option value="deljenje">deljenje</option>
+            </select>
 
-        <p>Unesi 2 broja:</p>
-        <input type="text" id="broj1" maxlength="7">
-        <input type="text" id="broj2" maxlength="7">
+            <p>Unesi 2 broja:</p>
+            <input type="text" id="broj1" maxlength="7">
+            <input type="text" id="broj2" maxlength="7">
 
-        <button onclick="submit()">Submit</button>
+            <button type="button" onclick="Submit()">Submit</button>
 
-        <p>Rezultat:</p>
-        <input type="text" id="rezultat">
+            <p>Rezultat:</p>
+            <input type="text" id="rezultat">
+        </form>
     </div>
 
     <script src="app.js">
